@@ -1,0 +1,17 @@
+.usersGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  .users-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #61347c;
+    color: white;
+    padding: 10px;
+
+    .avatar {
+      border-radius: 100%;
+    }
+  }
+}
